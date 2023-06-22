@@ -1,10 +1,15 @@
 # Wifi-Deauth-Attack
 
-    This Python script performs a WiFi deauthentication attack on a selected wireless network. The script first checks for any existing .csv files in the current working directory, moves them to a /backup directory, and creates a new .csv file to store the results of the attack. It then prompts the user to select a wireless interface to use for the attack, and puts it into monitored mode using the airmon-ng utility.
+    This Python script performs a WiFi deauthentication attack on a selected wireless network. The script first checks for any existing .csv files in the current
+    working directory, moves them to a /backup directory, and creates a new .csv file to store the results of the attack. It then prompts the user to select a
+    wireless interface to use for the attack, and puts it into monitored mode using the airmon-ng utility.
 
-    The script uses the airodump-ng utility to discover access points and continuously updates the results in the .csv file. It then displays the list of access points and prompts the user to select a target by ESSID. Once the target is selected, the script uses the aireplay-ng utility to launch a deauthentication attack against the target.
+    The script uses the airodump-ng utility to discover access points and continuously updates the results in the .csv file. It then displays the list of access
+    points and prompts the user to select a target by ESSID. Once the target is selected, the script uses the aireplay-ng utility to launch a deauthentication
+    attack against the target.
 
-    The script also includes error handling, such as checking for the presence of a WiFi adapter and ensuring that the user enters a valid input when selecting a wireless interface or target ESSID.
+    The script also includes error handling, such as checking for the presence of a WiFi adapter and ensuring that the user enters a valid input when selecting a
+    wireless interface or target ESSID.
 
 
     USAGE
@@ -30,5 +35,6 @@
     Note : To quit any inifinite loop , press Ctrl + c.
 
 
-    Note: Please use this script only for educational purposes and do not use it for any illegal or malicious activities. The author is not responsible for any damage caused by its usage.
+    Note: Please use this script only for educational purposes and do not use it for any illegal or malicious activities. The author is not responsible for any
+    damage caused by its usage.
 
