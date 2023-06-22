@@ -13,7 +13,7 @@
     wireless interface or target ESSID.
 
 
-    #USAGE
+    USAGE
 
         Connect your wireless interface
         Run the script with sudo privileges: sudo python3 wifi_dos.py
