@@ -20,13 +20,13 @@
         Wait for available networks to be displayed, and select the one you want to attack
         Press Ctrl+C to begin the attack
 
-    NOTES
+    Notes:
 
         This script is for educational purposes only. The author does not condone illegal or unethical use of this script.
         The script may not work on all WiFi adapters and drivers.
         If the script fails to find any wireless networks, try moving closer to a wireless access point.
 
-    Requirements
+    Requirements:
 
         A WiFi adapter that supports monitor mode
         Aircrack-ng (install with sudo apt install aircrack-ng)
